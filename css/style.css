@@ -1,0 +1,666 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+
+}
+/**********************/
+.r{float: right;}
+.l{float: left;}
+.c{clear: both;}
+.w{width: 1000px; margin: 0px auto ;}
+
+
+/**********************************/
+
+
+.headerTop {
+    background-repeat: no-repeat;
+    background-color: powderblue;
+    padding-top: 15;
+    padding-bottom: 15;
+}
+.logo a
+{
+    margin-right: 50px;
+    
+}
+.main_text
+{
+    margin: auto;
+    width: 30%;
+    font-size: 25;
+    font-family: monospace;
+    color:cadetblue;
+  //  background-color: aqua;
+}
+
+
+/**********/
+
+.menuBar /*here*/
+{
+    background-color:darkgrey;
+ 
+    margin-bottom: 10;
+}
+.menuBar ul {list-style: none;}
+
+.menuBar ul li
+{
+    float: right;
+    padding: 15px 10px ;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menuBar ul li a
+{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 15px;
+    color: aqua;
+    padding: 15px 3px;
+    border-radius: 4px;
+}
+.menuBar ul li a:hover
+{
+    background-color: aqua;
+    color: #fff;
+}
+
+.listaa
+{
+    margin-right: 50;
+    width: 40%;
+   
+    float: right;
+}
+.btn1
+{
+    margin-right: 10;
+}
+.searchh
+{
+    float: left;
+    margin-left:120;
+    margin-top:20;
+    margin-bottom: 10;
+    width: 30%;
+}
+
+
+
+
+
+
+
+/*******************/
+ /*** home ***/
+
+.menuBar2 
+{
+    background-color: darkgrey;
+}
+.menuBar2 ul {list-style: none;}
+
+.menuBar2 ul li
+{
+    float: right;
+    padding: 15px 10px ;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   // background-color: black;
+}
+.menuBar2 ul li a
+{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 15px;
+    color: aqua;
+    padding: 15px 3px;
+    border-radius: 4px;
+}
+.menuBar2 ul li a:hover
+{
+    background-color: aqua;
+    color: #fff;
+}
+
+.listaa2
+{
+    margin-right: 50;
+    width: 40%;
+   margin-top: 2;
+    float: right;
+   // background-color: blanchedalmond;
+}
+.btn1
+{
+    margin-right: 10;
+}
+.searchh2
+{
+    float: right;
+    margin-top:20;
+    margin-bottom: 10;
+    width: 25%;
+   // background-color: blanchedalmond;
+}
+
+.logo2
+{
+    float: left;
+   
+    margin-left: 50;
+    margin-top: 15;
+   // background-color: blue;
+    
+}
+/*****************/
+/*log out */
+.logout
+{
+   
+    
+    float:right;
+    margin-top: 40;
+    margin-right: 10;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+/********** registeration *********/ 
+
+.input_regist
+{
+    direction:rtl;
+}
+
+.label_regist
+{
+
+    float:right;
+    color: black;
+}
+
+.text_regist
+{
+    background-color: black;
+    
+    width: 84.6%;
+    margin: auto;
+    padding-bottom: 20;
+}
+
+.text
+{
+   
+    margin: auto;
+    background-color: aqua;
+}
+
+
+.regist
+{
+    background-color: cadetblue;
+}
+/*********************/
+/************/
+.login
+{
+     background-color: cadetblue;
+}
+
+.text_login
+{
+     background-color: black;
+    
+    width: 84.6%;
+    margin: auto;
+    padding-bottom: 40;
+    margin-bottom: -50;
+}
+.label_login
+{
+     float:right;
+    color: black;
+}
+.input_login
+{
+    direction:rtl;
+}
+
+/*******************/ 
+/*****************/
+
+
+
+
+
+
+
+
+/********** content index*********/ 
+.content
+{
+    
+    width: 95%;
+    margin: auto;
+}
+
+.contentUl
+{
+    list-style: none;
+}
+
+.contentLi
+{
+    float: right ;
+    background-color: aquamarine;
+    margin: 5;
+    
+}
+.product
+{
+    margin: 0;
+    padding-bottom: 15;
+}
+
+#pro_image
+{
+    width: 320px;
+    height: 150px;
+    margin: 10;
+}
+
+.conImage 
+{
+    border-radius:4px;
+}
+.conImage :hover
+{
+    opacity:0.7;
+}
+
+#pro_buy
+{
+    width: 100px;
+    float: right;
+    margin-right: 20;
+    margin-top: 5;
+}
+.buy
+{
+ float: right;
+}
+.pro_title
+{
+    
+     width: 200px;
+    float: right;
+     margin-right: 30;
+}
+.pro_title a{
+    
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
+
+/*****************/
+
+
+.contentLi_del
+{
+    float: right ;
+    background-color: aquamarine;
+    margin: 5;
+}
+
+.del_product
+{
+    margin: 10;
+    padding-bottom:0;
+}
+
+.con_del
+{
+    width: 70;
+    float: right ;
+    background-color: aquamarine;
+    margin: 5;
+    
+}
+
+
+
+
+.del_conImage 
+{
+    border-radius:4px;
+}
+.conImage :hover
+{
+    opacity:0.7;
+}
+
+
+.del_title
+{
+    
+     width: 50px;
+    float: right;
+     margin-right: 20;
+}
+.del_title a{
+    
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
+
+
+
+
+
+
+
+/***************/
+
+.cart_link
+{
+     width: 200px;
+    float: left;
+     margin-left: 10;
+    margin-top: 15;
+}
+
+.cart_link a{
+    
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    float:left;
+}
+
+
+
+
+
+.pro_price label
+{
+ text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    float: left; 
+    margin-left: 20;
+}
+.not_found
+{   height: 40;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 18px;
+    padding-top: 10;
+     padding-bottom: 10;
+    background-color:antiquewhite;
+    
+}
+
+/*************************************/
+/*************************************/
+/******   admin dashboard ****/
+.all
+{
+    width: 600;
+    margin: 50 auto;
+   
+}
+
+.adminmenu ul
+{
+    list-style: none;
+    overflow: hidden;
+}
+.adminmenu_add 
+{
+    float: right;
+    background: #4cb9eb;  
+    padding: 7;
+    margin-left: 10;
+}
+.adminmenu_del
+{
+    float: right;
+    background: brown;  
+    padding: 7;
+    margin-left: 10;
+}
+
+
+
+.adminmenu ul li a
+{
+    text-decoration: none;
+    font-family: tahoma;
+     font-size: 17;
+    color: #fff;
+}
+
+/*****/
+.adminBody
+{
+    background-color:#728FCE;
+    text-align:center;
+    padding: 10;
+    font-family: tahoma;
+    font-size: 12;
+    color:black;
+    border: 1px solid black;
+}
+
+.adminBody label
+{
+    float: right;
+    font-family: tahoma;
+    font-size: 14;
+    color: white;
+    font-weight: bold;
+}
+
+/***************/
+.addcatt
+{
+    height: 35;
+    width: 300;
+    margin: auto;
+    margin-top: 10;
+    margin-left: 80;
+    background-color:  #4cb9eb; 
+   // border: 1px solid #eee;
+    border-radius: 10;
+}
+.text_area_pro
+{
+    width: 100%;
+    height: 100;
+}
+
+.delcatt
+{
+    
+    height: 35;
+    width: 300;
+    margin: auto;
+    margin-top: 10;
+    margin-left: 80;
+    background-color:brown; 
+   // border: 1px solid #eee;
+    border-radius: 10;
+    
+}
+
+
+
+/*************************/
+
+
+
+.desc
+{
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin-right: 80;
+    margin-top: 30;
+    text-align: center;
+}
+
+.desc_title
+{
+    background-color:#f5f5f5;
+     border: 1px solid #eee;
+    padding: 8px;
+    font-size: 12;
+    font-family: tahoma;
+    font-weight: bold;
+}
+.desc_body
+{
+    padding: 8px;
+    font-size: 12;
+    font-family: tahoma;
+    font-weight: bold;
+}
+.desc p
+{
+    text-align: right;
+}
+
+.pro
+{
+    margin-left: 150;
+    margin-top: 30;
+    text-align: center;
+}
+
+#p_info
+{
+    padding: 5;
+    border-bottom: 1px solid powderblue ;
+    text-align: right;
+    
+}
+
+/******************/
+
+.table_cart
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: #fff ;
+    padding: 10px;
+    border: 1px solid #eee;  
+    direction: rtl;
+    background-color:azure;
+    
+}
+.cancel
+{
+    text-decoration: none;
+    color: white;    
+}
+.head_cart
+{
+   margin-bottom: 30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************/
+
+
+.footerMenu
+{
+    width: 100%;
+    height: 80;
+    background-color:#777;
+    margin-top: 30;
+    color: #fff;
+}
+.copy
+{
+    
+    background-color: #666;
+    color: #fff;
+    font-family: tohoma;
+    font-size: 12px;
+    text-align: center;
+    padding: 10;
+   
+}
+.footerr
+{
+    background-color: #894d4d#999;
+    padding: 10px 10px ;
+  
+}
+
+.footermenue
+{
+
+}
+.footerul
+{
+    list-style: none;
+
+}
+
+.footerli
+{
+    float: right;
+    padding: 2 px;
+    margin-right: 20;
+}
+
+.footerA
+{
+    text-decoration: none;
+    font-size: 12 px;
+    font-family: tahoma;
+     color: aliceblue;
+}
+.footerA :hover
+{
+    text-decoration: underline;
+}
+
+/*********************/
